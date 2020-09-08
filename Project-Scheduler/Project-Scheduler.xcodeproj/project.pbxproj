@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072EB26C24669CEE005188AD /* ProjectTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 072EB26B24669CEE005188AD /* ProjectTableCell.xib */; };
+		0760569724802C030081D2B8 /* Project+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760569324802C030081D2B8 /* Project+CoreDataClass.swift */; };
+		0760569824802C030081D2B8 /* Project+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760569424802C030081D2B8 /* Project+CoreDataProperties.swift */; };
+		0760569924802C030081D2B8 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760569524802C030081D2B8 /* Task+CoreDataClass.swift */; };
+		0760569A24802C030081D2B8 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760569624802C030081D2B8 /* Task+CoreDataProperties.swift */; };
+		07E717002467CF8C00CCB9A7 /* ProjectTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E716FF2467CF8C00CCB9A7 /* ProjectTableCell.swift */; };
+		07E7170A2467F35200CCB9A7 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E717092467F35200CCB9A7 /* UITableView.swift */; };
+		07E7170D2467FB8200CCB9A7 /* Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7170C2467FB8200CCB9A7 /* Calculations.swift */; };
+		07E7170F2468153E00CCB9A7 /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7170E2468153E00CCB9A7 /* ProjectViewController.swift */; };
+		07E71712246817D300CCB9A7 /* ProgressbarColours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E71711246817D300CCB9A7 /* ProgressbarColours.swift */; };
+		07E71714246819DF00CCB9A7 /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E71713246819DF00CCB9A7 /* DateFormat.swift */; };
+		07E7171624681AFF00CCB9A7 /* TaskTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E7171524681AFF00CCB9A7 /* TaskTableCell.xib */; };
+		07E7171824681E4000CCB9A7 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7171724681E4000CCB9A7 /* CircularProgressBar.swift */; };
+		07E7171A24682AAF00CCB9A7 /* LinearProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7171924682AAF00CCB9A7 /* LinearProgressBar.swift */; };
+		07E7171C2468729800CCB9A7 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7171B2468729800CCB9A7 /* NotesViewController.swift */; };
+		07EE01B52469570400CFCBA6 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE01B42469570400CFCBA6 /* TaskViewController.swift */; };
+		07EE01B72469581F00CFCBA6 /* TaskTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE01B62469581F00CFCBA6 /* TaskTableCell.swift */; };
+		C0A5647F24606DC600667E51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5647E24606DC600667E51 /* AppDelegate.swift */; };
+		C0A5648224606DC600667E51 /* Project_Scheduler.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C0A5648024606DC600667E51 /* Project_Scheduler.xcdatamodeld */; };
+		C0A5648424606DC600667E51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5648324606DC600667E51 /* SceneDelegate.swift */; };
+		C0A5648624606DC600667E51 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5648524606DC600667E51 /* MasterViewController.swift */; };
+		C0A5648824606DC600667E51 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A5648724606DC600667E51 /* DetailViewController.swift */; };
+		C0A5648B24606DC600667E51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A5648924606DC600667E51 /* Main.storyboard */; };
+		C0A5648D24606DC800667E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A5648C24606DC800667E51 /* Assets.xcassets */; };
+		C0A5649024606DC800667E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A5648E24606DC800667E51 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		072EB26B24669CEE005188AD /* ProjectTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectTableCell.xib; sourceTree = "<group>"; };
+		0760569324802C030081D2B8 /* Project+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0760569424802C030081D2B8 /* Project+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0760569524802C030081D2B8 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0760569624802C030081D2B8 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		07E716FF2467CF8C00CCB9A7 /* ProjectTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableCell.swift; sourceTree = "<group>"; };
+		07E717092467F35200CCB9A7 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		07E7170C2467FB8200CCB9A7 /* Calculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculations.swift; sourceTree = "<group>"; };
+		07E7170E2468153E00CCB9A7 /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		07E71711246817D300CCB9A7 /* ProgressbarColours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressbarColours.swift; sourceTree = "<group>"; };
+		07E71713246819DF00CCB9A7 /* DateFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		07E7171524681AFF00CCB9A7 /* TaskTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskTableCell.xib; sourceTree = "<group>"; };
+		07E7171724681E4000CCB9A7 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		07E7171924682AAF00CCB9A7 /* LinearProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearProgressBar.swift; sourceTree = "<group>"; };
+		07E7171B2468729800CCB9A7 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		07EE01B42469570400CFCBA6 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		07EE01B62469581F00CFCBA6 /* TaskTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableCell.swift; sourceTree = "<group>"; };
+		C0A5647B24606DC600667E51 /* Project Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Scheduler.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A5647E24606DC600667E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0A5648124606DC600667E51 /* Project_Scheduler.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project_Scheduler.xcdatamodel; sourceTree = "<group>"; };
+		C0A5648324606DC600667E51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0A5648524606DC600667E51 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C0A5648724606DC600667E51 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C0A5648A24606DC600667E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0A5648C24606DC800667E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0A5648F24606DC800667E51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0A5649124606DC800667E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A5647824606DC600667E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07E7170B2467F3AF00CCB9A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				07E717092467F35200CCB9A7 /* UITableView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		07E717102468168000CCB9A7 /* Assist */ = {
+			isa = PBXGroup;
+			children = (
+				07E71711246817D300CCB9A7 /* ProgressbarColours.swift */,
+				07E71713246819DF00CCB9A7 /* DateFormat.swift */,
+				07E7170C2467FB8200CCB9A7 /* Calculations.swift */,
+			);
+			path = Assist;
+			sourceTree = "<group>";
+		};
+		C0A5647224606DC600667E51 = {
+			isa = PBXGroup;
+			children = (
+				C0A5647D24606DC600667E51 /* Project-Scheduler */,
+				C0A5647C24606DC600667E51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A5647C24606DC600667E51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5647B24606DC600667E51 /* Project Scheduler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0A5647D24606DC600667E51 /* Project-Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				07E717102468168000CCB9A7 /* Assist */,
+				07E7170B2467F3AF00CCB9A7 /* Extensions */,
+				C0A5649724606EAE00667E51 /* View */,
+				C0A5649824606EB900667E51 /* Model */,
+				C0A5649924606ECD00667E51 /* Controller */,
+				C0A5647E24606DC600667E51 /* AppDelegate.swift */,
+				C0A5648324606DC600667E51 /* SceneDelegate.swift */,
+				C0A5648C24606DC800667E51 /* Assets.xcassets */,
+				C0A5649124606DC800667E51 /* Info.plist */,
+				C0A5648024606DC600667E51 /* Project_Scheduler.xcdatamodeld */,
+			);
+			path = "Project-Scheduler";
+			sourceTree = "<group>";
+		};
+		C0A5649724606EAE00667E51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5648924606DC600667E51 /* Main.storyboard */,
+				C0A5648E24606DC800667E51 /* LaunchScreen.storyboard */,
+				072EB26B24669CEE005188AD /* ProjectTableCell.xib */,
+				07E716FF2467CF8C00CCB9A7 /* ProjectTableCell.swift */,
+				07E7171524681AFF00CCB9A7 /* TaskTableCell.xib */,
+				07EE01B62469581F00CFCBA6 /* TaskTableCell.swift */,
+				07E7171724681E4000CCB9A7 /* CircularProgressBar.swift */,
+				07E7171924682AAF00CCB9A7 /* LinearProgressBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0A5649824606EB900667E51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0760569324802C030081D2B8 /* Project+CoreDataClass.swift */,
+				0760569424802C030081D2B8 /* Project+CoreDataProperties.swift */,
+				0760569524802C030081D2B8 /* Task+CoreDataClass.swift */,
+				0760569624802C030081D2B8 /* Task+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C0A5649924606ECD00667E51 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0A5648524606DC600667E51 /* MasterViewController.swift */,
+				C0A5648724606DC600667E51 /* DetailViewController.swift */,
+				07E7170E2468153E00CCB9A7 /* ProjectViewController.swift */,
+				07EE01B42469570400CFCBA6 /* TaskViewController.swift */,
+				07E7171B2468729800CCB9A7 /* NotesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A5647A24606DC600667E51 /* Project-Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A5649424606DC800667E51 /* Build configuration list for PBXNativeTarget "Project-Scheduler" */;
+			buildPhases = (
+				C0A5647724606DC600667E51 /* Sources */,
+				C0A5647824606DC600667E51 /* Frameworks */,
+				C0A5647924606DC600667E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project-Scheduler";
+			productName = "Project-Scheduler";
+			productReference = C0A5647B24606DC600667E51 /* Project Scheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A5647324606DC600667E51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = MahelManjithaM;
+				TargetAttributes = {
+					C0A5647A24606DC600667E51 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = C0A5647624606DC600667E51 /* Build configuration list for PBXProject "Project-Scheduler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0A5647224606DC600667E51;
+			productRefGroup = C0A5647C24606DC600667E51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A5647A24606DC600667E51 /* Project-Scheduler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A5647924606DC600667E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E7171624681AFF00CCB9A7 /* TaskTableCell.xib in Resources */,
+				072EB26C24669CEE005188AD /* ProjectTableCell.xib in Resources */,
+				C0A5649024606DC800667E51 /* LaunchScreen.storyboard in Resources */,
+				C0A5648D24606DC800667E51 /* Assets.xcassets in Resources */,
+				C0A5648B24606DC600667E51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A5647724606DC600667E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A5648624606DC600667E51 /* MasterViewController.swift in Sources */,
+				C0A5647F24606DC600667E51 /* AppDelegate.swift in Sources */,
+				07E71712246817D300CCB9A7 /* ProgressbarColours.swift in Sources */,
+				07E7171824681E4000CCB9A7 /* CircularProgressBar.swift in Sources */,
+				07E7170F2468153E00CCB9A7 /* ProjectViewController.swift in Sources */,
+				07EE01B52469570400CFCBA6 /* TaskViewController.swift in Sources */,
+				07EE01B72469581F00CFCBA6 /* TaskTableCell.swift in Sources */,
+				07E717002467CF8C00CCB9A7 /* ProjectTableCell.swift in Sources */,
+				0760569924802C030081D2B8 /* Task+CoreDataClass.swift in Sources */,
+				07E7171A24682AAF00CCB9A7 /* LinearProgressBar.swift in Sources */,
+				07E71714246819DF00CCB9A7 /* DateFormat.swift in Sources */,
+				C0A5648824606DC600667E51 /* DetailViewController.swift in Sources */,
+				07E7170D2467FB8200CCB9A7 /* Calculations.swift in Sources */,
+				07E7170A2467F35200CCB9A7 /* UITableView.swift in Sources */,
+				07E7171C2468729800CCB9A7 /* NotesViewController.swift in Sources */,
+				C0A5648224606DC600667E51 /* Project_Scheduler.xcdatamodeld in Sources */,
+				0760569724802C030081D2B8 /* Project+CoreDataClass.swift in Sources */,
+				0760569824802C030081D2B8 /* Project+CoreDataProperties.swift in Sources */,
+				0760569A24802C030081D2B8 /* Task+CoreDataProperties.swift in Sources */,
+				C0A5648424606DC600667E51 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0A5648924606DC600667E51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A5648A24606DC600667E51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0A5648E24606DC800667E51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A5648F24606DC800667E51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0A5649224606DC800667E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0A5649324606DC800667E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A5649524606DC800667E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project-Scheduler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MahelManjithaM.Project-Scheduler";
+				PRODUCT_NAME = "Project Scheduler";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C0A5649624606DC800667E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project-Scheduler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MahelManjithaM.Project-Scheduler";
+				PRODUCT_NAME = "Project Scheduler";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A5647624606DC600667E51 /* Build configuration list for PBXProject "Project-Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A5649224606DC800667E51 /* Debug */,
+				C0A5649324606DC800667E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A5649424606DC800667E51 /* Build configuration list for PBXNativeTarget "Project-Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A5649524606DC800667E51 /* Debug */,
+				C0A5649624606DC800667E51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C0A5648024606DC600667E51 /* Project_Scheduler.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C0A5648124606DC600667E51 /* Project_Scheduler.xcdatamodel */,
+			);
+			currentVersion = C0A5648124606DC600667E51 /* Project_Scheduler.xcdatamodel */;
+			path = Project_Scheduler.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C0A5647324606DC600667E51 /* Project object */;
+}

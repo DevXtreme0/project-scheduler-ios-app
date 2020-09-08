@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Project" representedClassName="Project" syncable="YES">
+        <attribute name="academicLevel" optional="YES" attributeType="String"/>
+        <attribute name="additionalNote" optional="YES" attributeType="String"/>
+        <attribute name="assessmentName" optional="YES" attributeType="String"/>
+        <attribute name="awardedMark" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="calendarIdentifier" optional="YES" attributeType="String"/>
+        <attribute name="dueDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="includeToCalendar" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="moduleName" optional="YES" attributeType="String"/>
+        <attribute name="moduleWeight" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="task" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Task" inverseName="project" inverseEntity="Task"/>
+    </entity>
+    <entity name="Task" representedClassName="Task" syncable="YES">
+        <attribute name="additionalNote" optional="YES" attributeType="String"/>
+        <attribute name="calendarIdentifier" optional="YES" attributeType="String"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="includeToCalendar" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="progress" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="taskName" optional="YES" attributeType="String"/>
+        <relationship name="project" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Project" inverseName="task" inverseEntity="Project"/>
+    </entity>
+    <elements>
+        <element name="Project" positionX="-63" positionY="-18" width="128" height="208"/>
+        <element name="Task" positionX="-54" positionY="72" width="128" height="163"/>
+    </elements>
+</model>
